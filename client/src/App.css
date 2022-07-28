@@ -1,0 +1,97 @@
+/*/ Global /*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Popins', sans-serif;
+}
+
+
+/*/ Layout /*/
+.layout {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/*/ Icons /*/
+.icon {
+  background: rgb(148, 110, 162);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 0px rgb(148, 110, 162);
+
+}
+
+.operationicons {
+  margin: 0 5px;
+  font-size: 1.2em;
+  color: rgb(112, 64, 131);
+}
+
+
+
+/*/ Navbar /*/
+.navbar {
+  margin: 1em;
+}
+
+
+/*/ Dashboard /*/
+.dashboard {
+margin: 2em;
+height: 250px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+
+/*/ Add Contact /*/
+.addinput  {
+ display: flex;
+ margin: 1em 0;
+}
+
+.addinput input {
+ outline: none;
+ border:none;
+ border-bottom: 1px solid black;
+ margin: 0 0.5em;
+}
+
+
+/*/ Contacts /*/
+.contacts {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*/ ContactList List /*/
+.list {
+  margin: 1em 0;
+}
+
+.listoperations {
+  color: rgb(90, 92, 92);
+}
+
+
+/*/ Footer /*/
+.footer {
+  padding: 1em;
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: lighter;
+  margin: 0.2em;
+}
